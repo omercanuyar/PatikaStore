@@ -1,5 +1,6 @@
 package Model;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -10,6 +11,19 @@ public class Product {
     private Category category;
     private List<String> values= new ArrayList<>();
     private String name;
+    private Brand brand;
+
+    public Brand getBrand() {
+        return brand;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    }
 
     public Category getCategory() {
         return category;
@@ -38,10 +52,9 @@ public class Product {
     }
 
 
-    public Product(String name, Category category){
+    public Product( Category category){
         this.id = UUID.randomUUID();
         this.category = category;
-        this.name= name;
     }
 
     public String getName() {
