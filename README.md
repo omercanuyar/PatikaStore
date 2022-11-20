@@ -1,5 +1,12 @@
-# PatikaStore
+# PatikaStore Java Case
 Java Case for eBebek Java &amp; QA &amp; SAP Spartacus Practicum
+## How to install
+#### git clone https://github.com/omercanuyar/PatikaStore.git
+#### cd PatikaStore
+#### code .
+#### run
+
+## PatikaStoreConsoleApp
 
 Patika ekibi elektronik eşyaların satıldığı bir sanal bir mağaza açmaya karar verdi ve bu mağazanın ürün yönetim sistemini siz patika gönüllülerinden yapmasını ekliyor.
 Sanal Mağazanın adı "PatikaStore" olacaktır.
